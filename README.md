@@ -32,3 +32,21 @@
 - maybe also filtering for tags in a search so that im only working on images with tag smissing or certain tags applied
 - importing and exporting the taggs as a hierarchy maybe also the function and its weights to the tags and what is pinned in a text doc
 
+
+
+## technologies
+- python
+	- logic
+- PySide6 (Qt)
+	- GUI
+- ExifTool
+	- handling metadata
+- SQLite
+	- database (tracking which tag was used how often and which tags do exist) (maybe also for the images for the previews of the tags)
+- JSON
+	- for import export of the database
+- (pytest)
+	- testing
+- (Pillow)
+	- basic image operations (create the thumbnaisl)
+
